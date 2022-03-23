@@ -21,12 +21,13 @@ body{
 
 .cuadroHeader1{
     background-image: url(../img/cuadroBLACK.svg);
+    background-size: cover;
     color: white;
     margin-top: -4px;
-    padding: 0.5rem 0;
-    display: flex;
-    justify-content: center;
+    padding: 0.5rem;
+    text-align: center;
 }
+
 
 .centerSearch{
     display: flex;
@@ -85,7 +86,7 @@ body{
 
 .maquillaje h1{
     text-shadow: 3px 3px 2px rgba(46, 45, 45, 0.452);
-    box-shadow: -2px 0px rgba(46, 45, 45, 0.226);
+    box-shadow: -2px 0px rgba(46, 45, 45, 0.356);
     border-left: 8px solid white;
     padding-top: 1rem;
     padding-left: 1rem;
@@ -286,5 +287,22 @@ footer .grupo-2{
 
 footer .grupo-2 small{
     font-size: 15px;    
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::: RESPONSIVE: tableta ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+@media screen and (max-width:768px) {
+    
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::: RESPONSIVE: medio ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+@media screen and (min-width:1024px) {
+
+    
+
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::: RESPONSIVE: grande ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+@media screen and (min-width:1200px) {
+    
 }
 
